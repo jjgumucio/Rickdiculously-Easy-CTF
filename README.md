@@ -6,6 +6,7 @@ it wasn't visible on my network. I tryed using nmap with several host discovery 
 configure the VMs network adapter to be "Bridged Adapter" (It was set as "NAT").
 
 The file pass_gen.py is a python script I wrote in order to generate passwords following instructions found during the game.
+The file passwords.txt is the result of running this script.
 
 ## Flags:
 | Flag Text | Points | Comments |
