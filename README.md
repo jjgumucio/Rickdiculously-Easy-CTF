@@ -11,7 +11,7 @@ The file passwords.txt is the result of running this script.
 ## Flags:
 | Flag Text | Points | Comments |
 | --------- |:------:|----------|
-| There is no zeus, in your face! | 10 | Visiting http://<machine-ip>:9090
+| There is no zeus, in your face! | 10 | Visiting _http://<machine-ip>:9090_
 | Whoa this is unexpected | 10 | Visiting ftp://<machine-ip>
 | Yeah d- just don't do it. | 10 | Visiting http://<machine-ip>/passwords/password.html (path discovered using nikto)
 | Get off the high road Summer! | 10 | ssh into the machine with user "Summer" and password "winter". Username found visiting <machine-ip>/cgi-bin/tracertool.cgi (command line injection). The tool was revealed after checking robots.txt (Had to "cheat" in this step)
