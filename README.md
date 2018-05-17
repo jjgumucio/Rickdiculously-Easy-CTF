@@ -1,4 +1,5 @@
 #Rickdiculously Easy CTF
+
 ###This repo covers my walkthrough the [Rickdiculously Easy 1](https://www.vulnhub.com/entry/rickdiculouslyeasy-1,207/) CTF game.
 
 First difficulty I had to tackle was not related with the game per se. After opening the box in Virtualbox and running it,
