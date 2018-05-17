@@ -11,12 +11,12 @@ The file passwords.txt is the result of running this script.
 ## Flags:
 | Flag Text | Points | Comments |
 | --------- |:------:|----------|
-| There is no zeus, in your face! | 10 | Visiting _http://<machine-ip>:9090_
-| Whoa this is unexpected | 10 | Visiting ftp://<machine-ip>
-| Yeah d- just don't do it. | 10 | Visiting http://<machine-ip>/passwords/password.html (path discovered using nikto)
-| Get off the high road Summer! | 10 | ssh into the machine with user "Summer" and password "winter". Username found visiting <machine-ip>/cgi-bin/tracertool.cgi (command line injection). The tool was revealed after checking robots.txt (Had to "cheat" in this step)
+| There is no zeus, in your face! | 10 | Visiting _http://machine-ip:9090_
+| Whoa this is unexpected | 10 | Visiting _ftp://machine-ip_
+| Yeah d- just don't do it. | 10 | Visiting _http://machine-ip/passwords/password.html_ (path discovered using nikto)
+| Get off the high road Summer! | 10 | ssh into the machine with user "Summer" and password "winter". Username found visiting _machine-ip>/cgi-bin/tracertool.cgi_ (command line injection). The tool was revealed after checking robots.txt (Had to "cheat" in this step)
 | TheyFoundMyBackDoorMorty | 10 | Obtained from one of the services running on the machine (part of the banner, using nmap -sV an all ports)
-| Flip the pickle Morty! | 10 | Obtained connecting to <machine-ip> on port 60000 using netcat
+| Flip the pickle Morty! | 10 | Obtained connecting to _machine-ip_ on port 60000 using netcat
 | 131333 | 20 | Used as a argument while executing "safe" file. (scp from RickSanchez home folder)
 | And Awwwaaaaayyyy we Go! | 20 | Obtained running the "safe" file with 131333 cmd arg
 | Ionic Defibrillator | 30 | Obtained loging in as RickSanchez and running "sudo -i" (RickSanchez was in sudoers)
