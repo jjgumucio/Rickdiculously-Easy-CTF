@@ -1,5 +1,5 @@
 # Rickdiculously Easy CTF
-### This repo covers my walkthrough the [Rickdiculously Easy 1](https://www.vulnhub.com/entry/rickdiculouslyeasy-1,207/) CTF game.
+### This repo covers my walkthrough of the [Rickdiculously Easy 1](https://www.vulnhub.com/entry/rickdiculouslyeasy-1,207/) CTF game.
 
 First difficulty I had to tackle was not related with the game per se. After opening the box in Virtualbox and running it,
 it wasn't visible on my network. I tryed using nmap with several host discovery options. Finally I realized that I had to
@@ -7,7 +7,7 @@ configure the VMs network adapter to be "Bridged Adapter" (It was set as "NAT").
 
 The file pass_gen.py is a python script I wrote in order to generate passwords following instructions found during the game.
 
-# Flags:
+## Flags:
 | Flag Text | Points | Comments |
 | --------- |:------:|----------|
 | There is no zeus, in your face! | 10 | Visiting http://<machine-ip>:9090
@@ -20,7 +20,7 @@ The file pass_gen.py is a python script I wrote in order to generate passwords f
 | And Awwwaaaaayyyy we Go! | 20 | Obtained running the "safe" file with 131333 cmd arg
 | Ionic Defibrillator | 30 | Obtained loging in as RickSanchez and running "sudo -i" (RickSanchez was in sudoers)
 
-# Notes:
+## Notes:
 - Account name "Summer" uses password "winter" (obtained from /passwords/passwords.html source)
 - After running "safe" with 131333 as a cmd arg, I found some "instructions" to generate RickSanchez user password?
 - "Also, sudo is wheely good." Quote from this flag. There is a user group named wheel (user RickSanchez belogs to)
